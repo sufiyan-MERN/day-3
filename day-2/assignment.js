@@ -30,3 +30,10 @@ let lastName = "Smith";
 let initials = firstName[0] + middleName[0] + lastName[0];
 
 console.log(initials);
+
+let temperature = 45;
+let state = "telangana";
+
+let wether = `the temperature in ${state} is ${temperature} degrees`;
+
+console.log(wether);
